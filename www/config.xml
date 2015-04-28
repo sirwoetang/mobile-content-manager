@@ -3,13 +3,13 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.mapworx"
+        id        = "com.phonegap.beaudell"
         version   = "1.0.0">
 
-    <name>Mapworx Mobile</name>
+    <name>Beaudell</name>
 
     <description>
-        Mapworx remote trip dispatch.
+        Beaudell Lookbook
     </description>
 
     <author href="http://viewmetrics.co.za" email="support@viewmetrics.co.za">
@@ -69,10 +69,6 @@
     <!--
         <gap:plugin name="com.phonegap.plugins.barcodescanner" />
     -->
-    <gap:plugin name="de.appplant.cordova.plugin.local-notification" version="0.8.1" />
-    <gap:plugin name="org.transistorsoft.cordova.background-geolocation" version="0.3.5" />
-    <gap:plugin name="com.phonegap.plugins.barcodescanner" version="1.1.0" />
-
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
     <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:qualifier="ldpi" />
